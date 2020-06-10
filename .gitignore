@@ -1,0 +1,7 @@
+*.pyc
+.idea
+log/
+test.png
+*.log
+*.pid
+.vscode
