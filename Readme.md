@@ -28,3 +28,4 @@
     - [监听模式](./others_notes/listen.py)
     - [jupyter搭建](./others_notes/jupyter搭建.md)
     - [月份对照表](./others_notes/time_map.md)
+    - [密码加解密](./others_notes/pswdTool.py)
