@@ -67,8 +67,39 @@ class LogHolder(object):
             return getattr(self.log, item)
 
 
-logger = LogHolder()
+def init_log(folder, filename):
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+    logger = logging.getLogger('videos')
+    logger.setLevel(logging.DEBUG)
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(filename)s - [line:%(lineno)d] - %(message)s')
+
+    # info级别
+    handler_info = logging.FileHandler(f'{folder}/{filename}_info.log', 'a', encoding='utf8')
+    handler_info.setLevel(logging.INFO)
+    handler_info.setFormatter(formatter)
+    logger.addHandler(handler_info)
+
+    # waring级别
+    handler_warning = logging.FileHandler(f'{folder}/{filename}_warning.log', 'a', encoding='utf8')
+    handler_warning.setLevel(logging.WARNING)
+    handler_warning.setFormatter(formatter)
+    logger.addHandler(handler_warning)
+
+    # error 级别
+    handler_error = logging.FileHandler(f'{folder}/{filename}_error.log', 'a', encoding='utf8')
+    handler_error.setLevel(logging.WARNING)
+    handler_error.setFormatter(formatter)
+    logger.addHandler(handler_error)
+
+    # 控制台打印
+    ch = logging.StreamHandler()
+    ch.setLevel(logging.DEBUG)
+    ch.setFormatter(formatter)
+    logger.addHandler(ch)
+    return logger
 
 
 if __name__ == "__main__":
+    logger = LogHolder()
     pass
