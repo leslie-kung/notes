@@ -1,0 +1,159 @@
+#tips {
+  color: #c72222;
+}
+d[class^="vhk"] {
+  width: 14px;
+  height: 30px;
+  margin-top: -9px;
+  background-image: url(../font/food.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -6px;
+}
+.vhk08k {
+  background: -274px -141px;
+}
+.vhk6zl {
+  background: -7px -15px;
+}
+.vhk0ao {
+  background: -133px -97px;
+}
+.vhk9or {
+  background: -330px -141px;
+}
+.vhkfln {
+  background: -428px -15px;
+}
+.vhkbvu {
+  background: -386px -97px;
+}
+.vhk84t {
+  background: -176px -141px;
+}
+.vhkvxd {
+  background: -246px -141px;
+}
+.vhkqsc {
+  background: -288px -141px;
+}
+.vhkjj4 {
+  background: -316px -141px;
+}
+.vhk0f1 {
+  background: -316px -97px;
+}
+.col.action {
+  padding: 0px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  background-color: #66a3ff;
+  display: table-cell;
+  vertical-align: middle;
+}
+.write_action {
+  color: white;
+}
+.lay1 {
+  height: 10%;
+}
+.lay2 {
+  height: 80%;
+}
+.lay3 {
+  height: 10%;
+}
+.lay4 {
+  height: 100%;
+}
+.lay5 {
+  height: 100%;
+}
+.details {
+  height: 40%;
+  border: 1px solid #d6d1d1;
+  padding: 20px;
+  font-size: 15px;
+}
+.ad {
+  margin-top: 5px;
+  height: 10%;
+  border: 1px solid #d6d1d1;
+}
+.photo {
+  height: 28%;
+  border: 1px solid #d6d1d1;
+  padding: 10px;
+}
+.photo_head {
+  height: 80%;
+}
+.photo_head img {
+  width: 100%;
+  height: 100%;
+}
+.photo_list {
+  height: 20%;
+}
+.photo_list ul {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+.photo_list ul li {
+  margin-left: 10px;
+  width: 20%;
+  height: 80%;
+  float: left;
+}
+.photo_list ul li img {
+  width: 100%;
+  height: 100%;
+}
+.map {
+  margin-top: 5px;
+  height: 10%;
+  border: 1px solid #d6d1d1;
+}
+.title {
+  height: 20%;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.title a {
+  font-size: 10px;
+}
+.score {
+  height: 12%;
+  font-size: 10px;
+}
+.score .comments {
+  margin-left: 10px;
+}
+.score .avgPriceTitle {
+  margin-left: 10px;
+}
+.score .comment_score .item {
+  margin-left: 10px;
+}
+.address {
+  height: 12%;
+}
+.tel {
+  height: 12%;
+}
+.characteristic {
+  height: 12%;
+}
+.more {
+  height: 12%;
+}
+.threes {
+  background: -246px -141px;
+  height: 30px;
+  width: 14px;
+  background-image: url(number.svg);
+}

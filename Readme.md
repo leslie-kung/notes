@@ -1,12 +1,15 @@
 ### 个人笔记
 
 - [python](./python_notes)
-    - [readme](./python_notes/readme.md)
+    - [返回每个月最大天数](python_notes/demo1.md)
+    - [excel和json转换](./python_notes/demo2.md)
+    - [svg反爬虫](./python_notes/svg反爬虫)
     
 - [mysql](./mysql_notes)
     - [mysql连接池](./mysql_notes/mysql_pools.py)
     - [mysql导入导出数据](./mysql_notes/mysql导入导出数据.txt)
     - [mysql在Ubuntu下重置root密码](./mysql_notes/mysql重置root密码.txt)
+    - [mysql用户创建和授权](./mysql_notes/mysql用户创建授权.md)
 
 - [git](./git_notes)
     - [git命令集合](./git_notes/git.txt)
